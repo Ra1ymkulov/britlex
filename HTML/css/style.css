@@ -1,0 +1,392 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+}
+.container {
+  max-width: 1350px;
+  width: 100%;
+  margin-inline: auto;
+}
+h1 {
+  color: rgba(0, 0, 0, 1);
+}
+h2 {
+  color: rgba(38, 50, 56, 1);
+}
+p {
+  color: hsla(223, 11%, 60%, 1);
+}
+button {
+  cursor: pointer;
+}
+#header {
+  padding-block: 45px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 50px;
+}
+nav a {
+  color: hsla(200, 19%, 18%, 1);
+  font-size: 16px;
+  font-weight: 500;
+}
+.header-text h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+.header-text span {
+  color: #a4a3a3;
+  font-size: 36px;
+  font-weight: 400;
+}
+.header button {
+  font-size: 24px;
+  font-weight: 400;
+  color: hsla(0, 0%, 0%, 1);
+  background: none;
+  width: 200px;
+  height: 50px;
+  border: 1.5px solid hsla(200, 19%, 18%, 1);
+  border-radius: 5px;
+}
+#main {
+  padding-block: 40px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main-text p {
+  width: 350px;
+  line-height: 30px;
+}
+.main-text h1 {
+  width: 400px;
+  font-size: 64px;
+  font-weight: 600;
+}
+.main-text button {
+  font-size: 32px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 1);
+  background: hsla(200, 19%, 18%, 1);
+  width: 400px;
+  height: 100px;
+  border: none;
+  border-radius: 15px;
+}
+.main-img {
+  width: 611px;
+}
+.main-text img {
+  position: absolute;
+  left: 530px;
+  top: 300px;
+}
+#speak {
+  padding-block: 40px;
+}
+#speak button {
+  font-size: 18px;
+  font-weight: 500;
+  color: hsla(0, 0%, 100%, 1);
+  background: hsla(200, 19%, 18%, 1);
+  width: 230px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+}
+.speak-box {
+  display: flex;
+  gap: 20px;
+}
+.reading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.speaking {
+  width: 405px;
+  height: 894px;
+  background: hsla(0, 0%, 96%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 50px;
+}
+.speak-title h1 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+.speaking p {
+  width: 350px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.writing {
+  width: 340px;
+  height: 500px;
+  background: hsla(0, 0%, 96%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 25px 30px;
+}
+.wriitng-t {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.wriitng-t p {
+  padding-bottom: 14px;
+}
+.wriitng-t h2 {
+  padding-bottom: 14px;
+}
+
+.writing img {
+  width: 290px;
+  position: absolute;
+  left: 700px;
+  top: 960px;
+}
+.reading-box {
+  width: 340px;
+  height: 500px;
+  background: hsla(0, 0%, 96%, 1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 25px 30px;
+}
+.reading-box img {
+  width: 290px;
+}
+.listening {
+  width: 760px;
+  height: 304px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: hsla(0, 0%, 96%, 1);
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+.listening-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.listening img {
+  width: 380px;
+  height: 250px;
+}
+#about {
+  padding-block: 40px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.about-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.about-text p {
+  width: 650px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.about-number {
+  display: flex;
+  gap: 50px;
+}
+.about-number .pupils {
+  display: flex;
+  width: 170px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about-number h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+#pricing {
+  padding-block: 40px;
+}
+.pricing-title h1 {
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+.self {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.self img {
+  width: 320px;
+}
+.self p {
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+}
+#self button {
+  width: 240px;
+  height: 45px;
+  border-radius: 5px;
+  background: hsla(0, 0%, 93%, 1);
+  border: none;
+  color: hsla(200, 19%, 18%, 1);
+  font-size: 30px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.self button span {
+  font-size: 18px;
+  color: hsla(200, 11%, 37%, 1);
+  font-weight: 400;
+}
+.self-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.live {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+.live img {
+  width: 400px;
+  height: 320px;
+}
+.live p {
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.live button span {
+  font-size: 18px;
+  color: hsla(200, 11%, 37%, 1);
+  font-weight: 400;
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+.personal img {
+  width: 320px;
+}
+.personal p {
+  width: 430px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.personal button span {
+  font-size: 18px;
+  color: hsla(200, 11%, 37%, 1);
+  font-weight: 400;
+}
+#contact {
+  padding-top: 50px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 120px;
+  border-bottom: 1px solid hsla(0, 0%, 77%, 1);
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-text h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.contact-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 770px;
+}
+.contact-btn {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+}
+.contact-btn button {
+  width: 240px;
+  height: 60px;
+  background-color: hsla(200, 19%, 18%, 1);
+  font-size: 20px;
+  font-weight: 500;
+  color: hsla(0, 0%, 100%, 1);
+  border-radius: 10px;
+  border: none;
+}
+.contact-btn input {
+  width: 350px;
+  height: 60px;
+  border: 1px solid hsla(223, 11%, 60%, 1);
+  border-radius: 10px;
+  background: none;
+}
+.contact-btn input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(223, 11%, 60%, 1);
+  padding-left: 30px;
+}
+#footer {
+  padding-block: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
